@@ -60,13 +60,14 @@
         </ul>
     </div>
 </nav>
-
-    <div class="container mt-4">
+<!--Formulario de contato-->
+    <div class="container col-4 mt-4">
         <h1>Formulário de Contato</h1>
         <form>
-            <div class="mb-3">
+            <div class="mb-4">
                 <label for="nome" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                <input type="text" class="form-control" id="nome" name="Nome" aria-describedby="nameHelp" placeholder="Digite seu nome">
+                <div id="nameHelp" class="form-text"></div>
             </div>
             <div class="mb-3">
                 <label for="telefone" class="form-label">Telefone</label>
