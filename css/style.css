@@ -3,7 +3,6 @@ width: 200px;
 }
 html .navbar {
     background-color: #0e5a21;
-    border: 1px solid black; /* Adiciona uma margem preta ao redor */
 }
 
 html .nav-link{
