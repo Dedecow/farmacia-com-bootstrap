@@ -62,55 +62,79 @@
             </div>
         </nav>
         </header>
-<!--Formulario de contato-->
-    <div class="container col-4 mt-4">
-        <h1>Formulário de Contato</h1>
-        <form>
-            <div class="mb-4">
-                <label for="nome" 
-                class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nome" name="Nome" aria-describedby="nameHelp" 
-                placeholder="Digite seu nome">
-                <div id="nameHelp" 
-                class="form-text">Dados protegidos pelo regulamento da empresa.</div>
-            </div>
-            <div class="mb-4">
-                <label for="telefone" class="form-label">Telefone para contato</label>
-                <input type="tel" class="form-control" id="telefone" name="Telefone" aria-describedby="phoneHelp" placeholder="Digite seu telefone">
-                <div id="phoneHelp" 
-                class="form-text">Não compartilhamos seu número de telefone com terceiros.</div>
-            </div>
-            <div class="mb-4">
-                <label for="email" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Digite seu email">
-                <div id="emailHelp" 
-                class="form-text">Não compartilhamos seu endereço de email.</div>
-            </div>
-            <div class="mb-4">
-                <label for="Assunto" class="form-label">Assunto</label>
-                <select class = "form-select" id="assunto" name-"assunto">
-                    <option value=1>Selecione o assunto:</option>
-                    <option value=2>Cotação de preços:</option>
-                    <option value=3>Sugestões de medicamentos:</option>
-                    <option value=4>Sugestões de melhorias:</option>  
-                    <option value=5>Duvidas</option>
-                    <option value=6>Reclamações:</option>
-                  
-                </select>
-            </div>
-            <div class="mb-4">
-                    <label for="mensagem" class="form-label">Sua Mensagem</label>
-                    <textarea class="form-control" id="mensagem" type="mensagem"  name="Mensagem" rows="4" aria-describedby="msgHelp" placeholder="Digite sua mensagem aqui"></textarea>
+    <main>
+    <!--Formulario de contato-->
+        <div class="container col-4 mt-4">
+            <h1>Formulário de Contato</h1>
+            <form>
+                <div class="mb-4">
+                    <label for="nome" 
+                    class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="Nome" aria-describedby="nameHelp" 
+                    placeholder="Digite seu nome">
+                    <div id="nameHelp" 
+                    class="form-text">Dados protegidos pelo regulamento da empresa.</div>
+                </div>
+                <div class="mb-4">
+                    <label for="telefone" class="form-label">Telefone para contato</label>
+                    <input type="tel" class="form-control" id="telefone" name="Telefone" aria-describedby="phoneHelp" placeholder="Digite seu telefone">
                     <div id="phoneHelp" 
-                    class="form-text">Digite sua mensagem e selecione se é uma solicitação de orçamento.</div>
-            </div>
-            <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="orcamento">
-                    <label class="form-check-label" for="orçamento">Esta mensagem é sobre um orçamento.</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    </div>
+                    class="form-text">Não compartilhamos seu número de telefone com terceiros.</div>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Digite seu email">
+                    <div id="emailHelp" 
+                    class="form-text">Não compartilhamos seu endereço de email.</div>
+                </div>
+                <div class="mb-4">
+                    <label for="Assunto" class="form-label">Assunto</label>
+                    <select class = "form-select" id="assunto" name-"assunto">
+                        <option value=1>Selecione o assunto:</option>
+                        <option value=2>Cotação de preços:</option>
+                        <option value=3>Sugestões de medicamentos:</option>
+                        <option value=4>Sugestões de melhorias:</option>  
+                        <option value=5>Duvidas</option>
+                        <option value=6>Reclamações:</option>
+                    
+                    </select>
+                </div>
+                <div class="mb-4">
+                        <label for="mensagem" class="form-label">Sua Mensagem</label>
+                        <textarea class="form-control" id="mensagem" type="mensagem"  name="Mensagem" rows="4" aria-describedby="msgHelp" placeholder="Digite sua mensagem aqui"></textarea>
+                        <div id="phoneHelp" 
+                        class="form-text">Digite sua mensagem e selecione se é uma solicitação de orçamento.</div>
+                </div>
+                <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="orcamento">
+                        <label class="form-check-label" for="orçamento">Esta mensagem é sobre um orçamento.</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </main>
+        <footer class="footer bg-light text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Contatos</h5>
+                        <p>Telefone: (15) 3854-0000</p>
+                        <p>Email: contato@devinhousepharma.com</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>Endereço</h5>
+                        <p>Rua Principal, 123</p>
+                        <p>Cajati, SP</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <p>CNPJ: 11.111.111/0001-00</p>
+                        <p>&copy; 2023 Devinhouse Pharma. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>       
+    </footer>
     
 </body>
 
