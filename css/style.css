@@ -18,3 +18,12 @@ html body{
 html .heart-fav{
     margin-bottom: 5px;
 }
+html a.nav-link:hover{
+    color:#1bc044df;
+}
+html a.nav-link:visited{
+    color:#93a698df;
+}
+html a.nav-link:active{
+    color:#69ba0ddf;
+}
