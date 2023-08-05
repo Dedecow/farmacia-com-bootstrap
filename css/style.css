@@ -1,6 +1,9 @@
 html .card-img{
 width: 200px;
 }
+html #navbar {
+    display:flex
+}
 html .navbar {
     background-color: #0e5a21;
 }
@@ -26,4 +29,7 @@ html a.nav-link:visited{
 }
 html a.nav-link:active{
     color:#69ba0ddf;
+}
+html .navbar .navbar-expand-lg{
+    display: flex;
 }
